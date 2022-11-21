@@ -14,7 +14,7 @@ include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 
 find_package(PkgConfig REQUIRED)
-pkg_check_modules(marisa-trie REQUIRED IMPORTED_TARGET marisa-trie)
+pkg_check_modules(marisa REQUIRED IMPORTED_TARGET marisa)
 
 add_executable(main main.cpp)
-target_link_libraries(main PkgConfig::marisa-trie)
+target_link_libraries(main PkgConfig::marisa)
