@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.15)
 
-set(VCPKG_TARGET_TRIPLET x64-linux)
-include(/workspaces/vcpkg/scripts/buildsystems/vcpkg.cmake)
+set(VCPKG_TARGET_TRIPLET x64-windows)
+include(C:/Users/work/CLionProjects/vcpkg/scripts/buildsystems/vcpkg.cmake)
+set(PKG_CONFIG_EXECUTABLE "C:/ProgramData/chocolatey/bin/pkg-config.exe")
 
 set(project_VERSION 0.0.0)
 
