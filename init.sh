@@ -1,2 +1,2 @@
-ln -s ../vcpkg .
-ln -s vcpkg/ports/openfst .
+ln -sf ../vcpkg .
+ln -sf vcpkg/ports/openfst .
