@@ -1,4 +1,4 @@
-#include "marisa.h"
+#include "fst/fst.h"
 
 #include <filesystem>
 #include <fstream>
@@ -6,6 +6,6 @@
 #include <system_error>
 
 int main(int argc, char** argv) {
-    const auto& trie = marisa::Trie();
+    const auto& trie = fst::FstHeader();
     return 0;
 }
