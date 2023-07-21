@@ -1,0 +1,18 @@
+{
+    "cmake.configureArgs": [
+        "-DVCPKG_APPLOCAL_DEPS=ON",
+        "-DX_VCPKG_APPLOCAL_DEPS_INSTALL=ON",
+        "-DVCPKG_MANIFEST_MODE=ON",
+        "-DVCPKG_TARGET_TRIPLET=-static"
+    ],
+    "vcpkg.general.enable": true,
+    "vcpkg.target.defaultTriplet": "-static",
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "/home/shaw/bin/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    },
+    "vcpkg.target.preferSystemLibs": false,
+    "vcpkg.target.useManifest": true,
+    "vcpkg.target.hostTriplet": "x64-linux",
+    "vcpkg.target.useStaticLib": true,
+    "vcpkg.target.installDependencies": true
+}
